@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your percentage: ");
+        double percentage = scanner.nextDouble();
+        double cgpa = percentage / 9.5;
+        System.out.printf("Your CGPA is: %.2f\n", cgpa);
+
+        scanner.close();
+    }
+}
